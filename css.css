@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  font-family:'Roboto', sans-serif;
+  background-image: url("https://images.pexels.com/photos/1393972/pexels-photo-1393972.jpeg?cs=srgb&dl=pexels-c%C3%A9sar-gaviria-1393972.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0;   
+  background-attachment: fixed; 
+}
+
+.flex{
+  display: block;
+  margin: 50px auto;
+}
+
+table {
+  border: 2px solid  #000000;
+  border-collapse: collapse;
+  overflow-y: auto;
+  width: 800px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+  
+h1 {
+  color: #ffffff;
+  font-size: 60px;
+  margin: 50px 0 0;
+  text-shadow: 2px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+th,
+td{
+  padding: 8px;
+}
+
+
+th,
+tr,
+td {
+  border: solid 1px  #000000;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 15px;
+}
+  
+button {
+  background-color: transparent;
+  color: #000000;
+  border-radius: 10px;
+  border: 0;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn{
+  background-color: #303030;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+
+.criarJogador{
+  width: 200px;
+}
+
+.apagarJogador{
+  width: 300px;
+}
+
+.apagarJogador i{
+  margin-right: 10px;
+}
+
+input{
+  padding: 10px;
+  width: 250px;
+  font-size: 15px;
+}
+
+@media (max-width: 600px){
+	input{
+		margin-bottom: 10px;
+	
+	}
+	
+}
