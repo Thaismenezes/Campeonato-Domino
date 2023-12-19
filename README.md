@@ -37,7 +37,7 @@ O projeto é estruturado da seguinte forma:
 
 ## 📌 Versão
 
-Em breve, será implementadas melhorias:
+Em breve serão implementadas melhorias:
 
 - Rank indicando a colocação dos jogadores.
 - Cadastro de duplas de jogadores.
